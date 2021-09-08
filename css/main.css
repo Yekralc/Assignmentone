@@ -1,0 +1,599 @@
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(170, 160, 160);
+    
+}
+
+.topnav
+{
+    font-size: 1.0rem;
+}
+
+.topnav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 93, 83);
+}
+  
+.topnav li 
+{
+    float: left;
+    width: 20%;
+}
+  
+.topnav li a 
+{
+    display: block;
+    color: rgb(177, 172, 172);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+.topnav li a:hover 
+{
+    background-color: rgb(102, 101, 99);
+}
+
+a                              /* adding the a attribute up here styles all of the a links */
+{
+    text-decoration: none;
+    color: rgba(11, 84, 97, 0.692);
+}
+
+a:hover
+{
+    color: rgb(235, 35, 35, 0.842);
+}
+
+a:active
+{
+    color: rgb(14, 4, 10);
+}
+
+.h1
+{      
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    text-decoration:;
+    font-style:;
+    color: #ddc962a6;
+}
+
+.h2
+{      
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    color: #ddc962a6; 
+}
+
+.homepage
+{    
+    position: absolute;    
+    top: 43%;
+    left: 46%;
+    transform: translate(-43%, -46%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(168, 89, 20, 0.692);
+}
+
+.productspage
+{    
+    position: absolute;    
+    top: 43%;
+    left: 46%;
+    transform: translate(-43%, -46%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(168, 89, 20, 0.692);
+}
+
+.legalpage
+{    
+    position: absolute;    
+    top: 43%;
+    left: 46%;
+    transform: translate(-43%, -46%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(168, 89, 20, 0.692);
+}
+
+.contactpage
+{    
+    position: absolute;    
+    top: 43%;
+    left: 46%;
+    transform: translate(-43%, -46%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(168, 89, 20, 0.692);
+}
+
+.videopage
+{    
+    position: absolute;    
+    top: 43%;
+    left: 46%;
+    transform: translate(-43%, -46%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:rgba(168, 89, 20, 0.692);
+}
+
+.left
+{
+    width: 25%;
+    float:left;
+    border:none;
+    padding: 20px;
+    padding-left: 5%;
+    margin-bottom: 0px;
+    box-sizing:border-box;
+}
+
+.middle
+{
+    width: 50%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 0px;
+    box-sizing:border-box;
+}
+
+.right
+{
+    width: 25%;
+    float:right;
+    border:none;
+    padding: 20px;
+    margin-bottom: 0px;
+    box-sizing:border-box;
+}
+
+.mainblock1
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.mainblock2
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.mainblock3
+{
+    width: 20%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+
+.productblock1
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.productblock2
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.productblock3
+{
+    width: 20%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 150px;
+    box-sizing:border-box;
+}
+
+.legalblock1
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: auto;
+    box-sizing:border-box;
+}
+
+.legalblock2
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.legalblock3
+{
+    width: 20%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.contactblock1
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: auto;
+    box-sizing:border-box;
+}
+
+.contactblock2
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.contactblock3
+{
+    width: 20%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.videoblock1
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: auto;
+    box-sizing:border-box;
+}
+
+.videoblock2
+{
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.videoblock3
+{
+    width: 20%;
+    float:left;
+    border:none;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+}
+
+.center
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(97, 51, 11, 0.692);
+    text-align: center;
+}
+
+.center4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgba(57, 97, 11, 0.692);
+    text-align: center;
+}
+
+.center2
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: left;
+}
+
+.center3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgba(11, 84, 97, 0.692);   
+    text-align: center; 
+}
+
+.center5
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(97, 51, 11, 0.692);
+    text-align: left;
+}
+
+.center6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: left;
+}
+
+.center7
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: center;
+}
+
+.center8
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: center;
+}
+
+.center9
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.center10
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.center11
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: left;
+}
+
+.center12
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgba(11, 84, 97, 0.692);
+    text-align: right;
+}
+
+.center14
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+.privacy
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    color: rgba(97, 51, 11, 0.692);
+    text-align: center;
+}
+
+.footer
+{
+    font-size: 0.75rem;
+}
+  
+.footer ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(155, 145, 145);
+}
+    
+.footer li 
+{
+    float: left;
+    width: 16.66666%;
+}
+    
+.footer li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+    /* Change the link color to #111 (black) on hover */
+.footer li a:hover 
+{
+    background-color: rgb(102, 101, 101);
+}
+   
+  
+.input, textarea
+{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.form
+{
+    margin-bottom: 50%;
+
+}
+
+.clr:after
+{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.button
+{
+    font-size: 16px;
+    background-color:rgba(11, 84, 97, 0.692);    
+    color: rgb(138, 238, 238);
+    padding: 10px 15px;
+    border: none; 
+}
+
+.button:hover
+{
+    background-color: rgba(97, 51, 11, 0.692);
+    color: #e4fc0d;
+}
+
+.categories
+{
+    border:1px #555555 solid;
+    padding:10px;
+    border-radius:20px;    
+}
+
+.categories h2
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 36px;
+        color: rgba(57, 97, 11, 0.692);
+        text-align: center;
+    }
+
+.categories ul
+{
+    padding:0px;
+    padding-left:30px;
+    padding-top:0px;
+    padding-bottom:0px;
+    /*list-style:square;                    /* this for square bullet points*/
+    list-style: none;                       /*this is for no bullet points*/
+    
+}
+
+.categories li
+{
+   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: dotted 5px #0c5c10;
+    list-style-image: url('../media/checkmark.png');
+}
+
+.categories a
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0);
+}
+
+.my-form
+{
+    padding:20px;
+}
+
+.my-form .form-group
+{
+    padding-bottom:15px;
+}
+
+.my-form label
+{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea
+{
+    padding: 8px;
+    width:80%;
+}
+
+.my-form input [type="button"].hover
+{
+    color: #333333;    
+}
+
+@media screen and (max-width: 600px)
+    
+    .
+{
+        width 100%;
+}
